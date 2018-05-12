@@ -10,7 +10,7 @@
 
 @interface NSObject (Blocks)
 
-- (void)performBlock:(void(^)())block;
+- (void)performBlock:(void(^)(void))block;
 - (void)performBlock:(void (^)(id))block withObject:(id)object;
 - (void)performBlock:(void (^)(id, id))block withObject:(id)object1 withObject:(id)object2;
 

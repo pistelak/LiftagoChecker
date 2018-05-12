@@ -7,16 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C068B73204AB8BA00B4A9B8 /* FoundationUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C49D6FA1F63F40B00627EC4 /* FoundationUtils.framework */; };
+		2C068B74204AB8BA00B4A9B8 /* FoundationUtils.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2C49D6FA1F63F40B00627EC4 /* FoundationUtils.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2C068B79204AF5B500B4A9B8 /* Store.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C068B78204AF5B500B4A9B8 /* Store.m */; };
+		2C068B93204AFA5D00B4A9B8 /* OverviewViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C068B92204AFA5D00B4A9B8 /* OverviewViewModel.m */; };
+		2C0714AD1F6D5073006EE4A6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C0714AF1F6D5073006EE4A6 /* Localizable.strings */; };
+		2C0714E11F6DB1EE006EE4A6 /* OverviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0714E01F6DB1EE006EE4A6 /* OverviewView.m */; };
 		2C49D6271F63F02300627EC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C49D6261F63F02300627EC4 /* main.m */; };
 		2C49D62A1F63F02300627EC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C49D6291F63F02300627EC4 /* AppDelegate.m */; };
 		2C49D6321F63F02300627EC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C49D6311F63F02300627EC4 /* Assets.xcassets */; };
 		2C49D6351F63F02300627EC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C49D6331F63F02300627EC4 /* LaunchScreen.storyboard */; };
 		2C49D6401F63F02300627EC4 /* LiftagoCheckerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C49D63F1F63F02300627EC4 /* LiftagoCheckerTests.m */; };
 		2C49D7111F64147700627EC4 /* OverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C49D7101F64147700627EC4 /* OverviewViewController.m */; };
-		798EE14F4303A670BEC1D3F5 /* libPods-LiftagoChecker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B3D6BA6459FB784510553DB /* libPods-LiftagoChecker.a */; };
+		2C49D7191F641ACE00627EC4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C49D7181F641ACE00627EC4 /* GoogleService-Info.plist */; };
+		2C60FBA41F6D494500CD7B2A /* GMailService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA091E41F6D3E740088604C /* GMailService.framework */; };
+		2C60FBA51F6D494500CD7B2A /* GMailService.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA091E41F6D3E740088604C /* GMailService.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2C613264204AFF0100F1D5B4 /* GoogleService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C613263204AFF0100F1D5B4 /* GoogleService.m */; };
+		2C613288204C137100F1D5B4 /* BillStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C613287204C137100F1D5B4 /* BillStore.m */; };
+		2CAB3D9E1F6461B700C6BFF9 /* LiftagoSnippetMessageParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CAB3D9D1F6461B700C6BFF9 /* LiftagoSnippetMessageParser.m */; };
+		2CAB3DAD1F64674200C6BFF9 /* BillEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CAB3DAC1F64674200C6BFF9 /* BillEntry.m */; };
+		2CAB3DC31F64856000C6BFF9 /* Bill.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CAB3DC21F64856000C6BFF9 /* Bill.m */; };
+		2CE20D3C2030A9FD001E5890 /* UIViewController+Alerts.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE20D3B2030A9FD001E5890 /* UIViewController+Alerts.m */; };
+		2CE270BD20A6FA9300E8F624 /* GaugeView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE270A820A6F9B200E8F624 /* GaugeView.framework */; };
+		2CE270BE20A6FA9300E8F624 /* GaugeView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE270A820A6F9B200E8F624 /* GaugeView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		971BB0A421E82B2078CD1C82 /* libPods-LiftagoChecker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C60B6BA53B9B53F77EDFE19 /* libPods-LiftagoChecker.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		2C068B75204AB8BA00B4A9B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C49D6F41F63F40A00627EC4 /* FoundationUtils.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C49D6D91F63F40A00627EC4;
+			remoteInfo = FoundationUtils;
+		};
 		2C49D63C1F63F02300627EC4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2C49D61A1F63F02300627EC4 /* Project object */;
@@ -38,6 +62,41 @@
 			remoteGlobalIDString = 2C49D6E31F63F40A00627EC4;
 			remoteInfo = FoundationUtilsTests;
 		};
+		2C60FBA61F6D494500CD7B2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CA091DE1F6D3E730088604C /* GMailService.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CA091C31F6D3E730088604C;
+			remoteInfo = GMailService;
+		};
+		2CA091E31F6D3E740088604C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CA091DE1F6D3E730088604C /* GMailService.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2CA091C41F6D3E730088604C;
+			remoteInfo = GMailService;
+		};
+		2CA091E51F6D3E740088604C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CA091DE1F6D3E730088604C /* GMailService.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2CA091CD1F6D3E730088604C;
+			remoteInfo = GMailServiceTests;
+		};
+		2CE270A720A6F9B200E8F624 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CE270A220A6F9B200E8F624 /* GaugeView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2C1539C02030CC1D00D12CDA;
+			remoteInfo = GaugeView;
+		};
+		2CE270BF20A6FA9300E8F624 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CE270A220A6F9B200E8F624 /* GaugeView.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C1539BF2030CC1D00D12CDA;
+			remoteInfo = GaugeView;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,6 +106,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				2CE270BE20A6FA9300E8F624 /* GaugeView.framework in Embed Frameworks */,
+				2C60FBA51F6D494500CD7B2A /* GMailService.framework in Embed Frameworks */,
+				2C068B74204AB8BA00B4A9B8 /* FoundationUtils.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -55,6 +117,15 @@
 
 /* Begin PBXFileReference section */
 		2A6C47CB799AA56C4C5A121F /* Pods-LiftagoChecker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiftagoChecker.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-LiftagoChecker/Pods-LiftagoChecker.debug.xcconfig"; sourceTree = "<group>"; };
+		2C068B77204AF5B500B4A9B8 /* Store.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Store.h; sourceTree = "<group>"; };
+		2C068B78204AF5B500B4A9B8 /* Store.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Store.m; sourceTree = "<group>"; };
+		2C068B91204AFA5D00B4A9B8 /* OverviewViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OverviewViewModel.h; sourceTree = "<group>"; };
+		2C068B92204AFA5D00B4A9B8 /* OverviewViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OverviewViewModel.m; sourceTree = "<group>"; };
+		2C0714AE1F6D5073006EE4A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2C0714B01F6D5084006EE4A6 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2C0714DF1F6DB1EE006EE4A6 /* OverviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverviewView.h; sourceTree = "<group>"; };
+		2C0714E01F6DB1EE006EE4A6 /* OverviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverviewView.m; sourceTree = "<group>"; };
+		2C1539E32030CF3F00D12CDA /* GaugeView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GaugeView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C49D6221F63F02300627EC4 /* LiftagoChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiftagoChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C49D6261F63F02300627EC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2C49D6281F63F02300627EC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,8 +139,23 @@
 		2C49D6F41F63F40A00627EC4 /* FoundationUtils.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FoundationUtils.xcodeproj; path = FoundationUtils/FoundationUtils.xcodeproj; sourceTree = "<group>"; };
 		2C49D70F1F64147700627EC4 /* OverviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverviewViewController.h; sourceTree = "<group>"; };
 		2C49D7101F64147700627EC4 /* OverviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverviewViewController.m; sourceTree = "<group>"; };
-		4B3D6BA6459FB784510553DB /* libPods-LiftagoChecker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LiftagoChecker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C49D7181F641ACE00627EC4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2C613262204AFF0100F1D5B4 /* GoogleService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleService.h; sourceTree = "<group>"; };
+		2C613263204AFF0100F1D5B4 /* GoogleService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleService.m; sourceTree = "<group>"; };
+		2C613286204C137100F1D5B4 /* BillStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BillStore.h; sourceTree = "<group>"; };
+		2C613287204C137100F1D5B4 /* BillStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BillStore.m; sourceTree = "<group>"; };
+		2CA091DE1F6D3E730088604C /* GMailService.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GMailService.xcodeproj; path = GMailService/GMailService.xcodeproj; sourceTree = "<group>"; };
+		2CAB3D9C1F6461B700C6BFF9 /* LiftagoSnippetMessageParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiftagoSnippetMessageParser.h; sourceTree = "<group>"; };
+		2CAB3D9D1F6461B700C6BFF9 /* LiftagoSnippetMessageParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiftagoSnippetMessageParser.m; sourceTree = "<group>"; };
+		2CAB3DAB1F64674200C6BFF9 /* BillEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillEntry.h; sourceTree = "<group>"; };
+		2CAB3DAC1F64674200C6BFF9 /* BillEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BillEntry.m; sourceTree = "<group>"; };
+		2CAB3DC11F64856000C6BFF9 /* Bill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bill.h; sourceTree = "<group>"; };
+		2CAB3DC21F64856000C6BFF9 /* Bill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bill.m; sourceTree = "<group>"; };
+		2CE20D3A2030A9FD001E5890 /* UIViewController+Alerts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Alerts.h"; sourceTree = "<group>"; };
+		2CE20D3B2030A9FD001E5890 /* UIViewController+Alerts.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Alerts.m"; sourceTree = "<group>"; };
+		2CE270A220A6F9B200E8F624 /* GaugeView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GaugeView.xcodeproj; path = GaugeView/GaugeView.xcodeproj; sourceTree = "<group>"; };
 		8A0DDDFB5CC0A8BFCCC1644C /* Pods-LiftagoChecker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiftagoChecker.release.xcconfig"; path = "../Pods/Target Support Files/Pods-LiftagoChecker/Pods-LiftagoChecker.release.xcconfig"; sourceTree = "<group>"; };
+		9C60B6BA53B9B53F77EDFE19 /* libPods-LiftagoChecker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LiftagoChecker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +163,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				798EE14F4303A670BEC1D3F5 /* libPods-LiftagoChecker.a in Frameworks */,
+				2C068B73204AB8BA00B4A9B8 /* FoundationUtils.framework in Frameworks */,
+				2C60FBA41F6D494500CD7B2A /* GMailService.framework in Frameworks */,
+				2CE270BD20A6FA9300E8F624 /* GaugeView.framework in Frameworks */,
+				971BB0A421E82B2078CD1C82 /* libPods-LiftagoChecker.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +183,8 @@
 		2C49D6191F63F02300627EC4 = {
 			isa = PBXGroup;
 			children = (
+				2CE270A220A6F9B200E8F624 /* GaugeView.xcodeproj */,
+				2CA091DE1F6D3E730088604C /* GMailService.xcodeproj */,
 				2C49D6F41F63F40A00627EC4 /* FoundationUtils.xcodeproj */,
 				2C49D6241F63F02300627EC4 /* LiftagoChecker */,
 				2C49D63E1F63F02300627EC4 /* LiftagoCheckerTests */,
@@ -115,8 +206,10 @@
 		2C49D6241F63F02300627EC4 /* LiftagoChecker */ = {
 			isa = PBXGroup;
 			children = (
-				2C49D70F1F64147700627EC4 /* OverviewViewController.h */,
-				2C49D7101F64147700627EC4 /* OverviewViewController.m */,
+				2CE20D3D2030ABED001E5890 /* Categories */,
+				2CE20D362030A6E8001E5890 /* Model */,
+				2C613267204B18F800F1D5B4 /* ViewModel */,
+				2C613268204B190B00F1D5B4 /* View */,
 				2C49D6251F63F02300627EC4 /* Supporting Files */,
 			);
 			path = LiftagoChecker;
@@ -130,7 +223,9 @@
 				2C49D6311F63F02300627EC4 /* Assets.xcassets */,
 				2C49D6331F63F02300627EC4 /* LaunchScreen.storyboard */,
 				2C49D6361F63F02300627EC4 /* Info.plist */,
+				2C49D7181F641ACE00627EC4 /* GoogleService-Info.plist */,
 				2C49D6261F63F02300627EC4 /* main.m */,
+				2C0714AF1F6D5073006EE4A6 /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -153,10 +248,84 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		2C613267204B18F800F1D5B4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2C068B91204AFA5D00B4A9B8 /* OverviewViewModel.h */,
+				2C068B92204AFA5D00B4A9B8 /* OverviewViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2C613268204B190B00F1D5B4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2C49D70F1F64147700627EC4 /* OverviewViewController.h */,
+				2C49D7101F64147700627EC4 /* OverviewViewController.m */,
+				2C0714DF1F6DB1EE006EE4A6 /* OverviewView.h */,
+				2C0714E01F6DB1EE006EE4A6 /* OverviewView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2C613289204C15D800F1D5B4 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				2C068B77204AF5B500B4A9B8 /* Store.h */,
+				2C068B78204AF5B500B4A9B8 /* Store.m */,
+				2C613262204AFF0100F1D5B4 /* GoogleService.h */,
+				2C613263204AFF0100F1D5B4 /* GoogleService.m */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		2CA091DF1F6D3E730088604C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CA091E41F6D3E740088604C /* GMailService.framework */,
+				2CA091E61F6D3E740088604C /* GMailServiceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CE20D362030A6E8001E5890 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2C613289204C15D800F1D5B4 /* General */,
+				2CAB3D9C1F6461B700C6BFF9 /* LiftagoSnippetMessageParser.h */,
+				2CAB3D9D1F6461B700C6BFF9 /* LiftagoSnippetMessageParser.m */,
+				2CAB3DAB1F64674200C6BFF9 /* BillEntry.h */,
+				2CAB3DAC1F64674200C6BFF9 /* BillEntry.m */,
+				2CAB3DC11F64856000C6BFF9 /* Bill.h */,
+				2CAB3DC21F64856000C6BFF9 /* Bill.m */,
+				2C613286204C137100F1D5B4 /* BillStore.h */,
+				2C613287204C137100F1D5B4 /* BillStore.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2CE20D3D2030ABED001E5890 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				2CE20D3A2030A9FD001E5890 /* UIViewController+Alerts.h */,
+				2CE20D3B2030A9FD001E5890 /* UIViewController+Alerts.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		2CE270A320A6F9B200E8F624 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CE270A820A6F9B200E8F624 /* GaugeView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		4BA9E204C644BF879806BA8C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4B3D6BA6459FB784510553DB /* libPods-LiftagoChecker.a */,
+				2C1539E32030CF3F00D12CDA /* GaugeView.framework */,
+				9C60B6BA53B9B53F77EDFE19 /* libPods-LiftagoChecker.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -188,6 +357,9 @@
 			buildRules = (
 			);
 			dependencies = (
+				2C60FBA71F6D494500CD7B2A /* PBXTargetDependency */,
+				2C068B76204AB8BA00B4A9B8 /* PBXTargetDependency */,
+				2CE270C020A6FA9300E8F624 /* PBXTargetDependency */,
 			);
 			name = LiftagoChecker;
 			productName = LiftagoChecker;
@@ -218,12 +390,12 @@
 		2C49D61A1F63F02300627EC4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Radek Pistelak";
 				TargetAttributes = {
 					2C49D6211F63F02300627EC4 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 23JSUJ9XPG;
+						DevelopmentTeam = G44VYF3687;
 						ProvisioningStyle = Automatic;
 					};
 					2C49D63A1F63F02300627EC4 = {
@@ -241,6 +413,7 @@
 			knownRegions = (
 				en,
 				Base,
+				cs,
 			);
 			mainGroup = 2C49D6191F63F02300627EC4;
 			productRefGroup = 2C49D6231F63F02300627EC4 /* Products */;
@@ -249,6 +422,14 @@
 				{
 					ProductGroup = 2C49D6F51F63F40A00627EC4 /* Products */;
 					ProjectRef = 2C49D6F41F63F40A00627EC4 /* FoundationUtils.xcodeproj */;
+				},
+				{
+					ProductGroup = 2CE270A320A6F9B200E8F624 /* Products */;
+					ProjectRef = 2CE270A220A6F9B200E8F624 /* GaugeView.xcodeproj */;
+				},
+				{
+					ProductGroup = 2CA091DF1F6D3E730088604C /* Products */;
+					ProjectRef = 2CA091DE1F6D3E730088604C /* GMailService.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -274,6 +455,27 @@
 			remoteRef = 2C49D6FB1F63F40B00627EC4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		2CA091E41F6D3E740088604C /* GMailService.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GMailService.framework;
+			remoteRef = 2CA091E31F6D3E740088604C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2CA091E61F6D3E740088604C /* GMailServiceTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GMailServiceTests.xctest;
+			remoteRef = 2CA091E51F6D3E740088604C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2CE270A820A6F9B200E8F624 /* GaugeView.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GaugeView.framework;
+			remoteRef = 2CE270A720A6F9B200E8F624 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -282,7 +484,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C49D6351F63F02300627EC4 /* LaunchScreen.storyboard in Resources */,
+				2C0714AD1F6D5073006EE4A6 /* Localizable.strings in Resources */,
 				2C49D6321F63F02300627EC4 /* Assets.xcassets in Resources */,
+				2C49D7191F641ACE00627EC4 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,7 +530,8 @@
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GTMOAuth2ViewTouch.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -339,9 +544,18 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/../Pods/Target Support Files/Pods-LiftagoChecker/Pods-LiftagoChecker-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClientForREST.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -355,9 +569,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CAB3DC31F64856000C6BFF9 /* Bill.m in Sources */,
+				2CAB3DAD1F64674200C6BFF9 /* BillEntry.m in Sources */,
 				2C49D7111F64147700627EC4 /* OverviewViewController.m in Sources */,
+				2C0714E11F6DB1EE006EE4A6 /* OverviewView.m in Sources */,
 				2C49D62A1F63F02300627EC4 /* AppDelegate.m in Sources */,
+				2CE20D3C2030A9FD001E5890 /* UIViewController+Alerts.m in Sources */,
+				2C613288204C137100F1D5B4 /* BillStore.m in Sources */,
+				2C613264204AFF0100F1D5B4 /* GoogleService.m in Sources */,
+				2C068B79204AF5B500B4A9B8 /* Store.m in Sources */,
 				2C49D6271F63F02300627EC4 /* main.m in Sources */,
+				2CAB3D9E1F6461B700C6BFF9 /* LiftagoSnippetMessageParser.m in Sources */,
+				2C068B93204AFA5D00B4A9B8 /* OverviewViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,14 +595,38 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		2C068B76204AB8BA00B4A9B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FoundationUtils;
+			targetProxy = 2C068B75204AB8BA00B4A9B8 /* PBXContainerItemProxy */;
+		};
 		2C49D63D1F63F02300627EC4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 2C49D6211F63F02300627EC4 /* LiftagoChecker */;
 			targetProxy = 2C49D63C1F63F02300627EC4 /* PBXContainerItemProxy */;
 		};
+		2C60FBA71F6D494500CD7B2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GMailService;
+			targetProxy = 2C60FBA61F6D494500CD7B2A /* PBXContainerItemProxy */;
+		};
+		2CE270C020A6FA9300E8F624 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GaugeView;
+			targetProxy = 2CE270BF20A6FA9300E8F624 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		2C0714AF1F6D5073006EE4A6 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C0714AE1F6D5073006EE4A6 /* en */,
+				2C0714B01F6D5084006EE4A6 /* cs */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		2C49D6331F63F02300627EC4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -395,21 +642,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -432,7 +688,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -444,21 +700,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -475,7 +740,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -488,9 +753,9 @@
 			baseConfigurationReference = 2A6C47CB799AA56C4C5A121F /* Pods-LiftagoChecker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 23JSUJ9XPG;
+				DEVELOPMENT_TEAM = G44VYF3687;
 				INFOPLIST_FILE = LiftagoChecker/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ran.apps.LiftagoChecker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -502,9 +767,9 @@
 			baseConfigurationReference = 8A0DDDFB5CC0A8BFCCC1644C /* Pods-LiftagoChecker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 23JSUJ9XPG;
+				DEVELOPMENT_TEAM = G44VYF3687;
 				INFOPLIST_FILE = LiftagoChecker/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ran.apps.LiftagoChecker;
 				PRODUCT_NAME = "$(TARGET_NAME)";

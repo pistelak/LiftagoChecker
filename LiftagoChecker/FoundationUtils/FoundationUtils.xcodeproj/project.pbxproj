@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C068B71204AB87900B4A9B8 /* NSObject+Throttling.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C068B6F204AB87900B4A9B8 /* NSObject+Throttling.m */; };
+		2C068B72204AB87900B4A9B8 /* NSObject+Throttling.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C068B70204AB87900B4A9B8 /* NSObject+Throttling.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2C49D6E41F63F40A00627EC4 /* FoundationUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C49D6DA1F63F40A00627EC4 /* FoundationUtils.framework */; };
 		2C49D6E91F63F40A00627EC4 /* FoundationUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C49D6E81F63F40A00627EC4 /* FoundationUtilsTests.m */; };
 		2C49D6EB1F63F40A00627EC4 /* FoundationUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C49D6DD1F63F40A00627EC4 /* FoundationUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -16,6 +18,7 @@
 		2C49D7081F63FCB200627EC4 /* NSObject+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C49D7061F63FCB200627EC4 /* NSObject+Blocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2C49D7091F63FCB200627EC4 /* NSObject+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C49D7071F63FCB200627EC4 /* NSObject+Blocks.m */; };
 		2C49D70B1F63FCC100627EC4 /* NSObject+BlocksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C49D70A1F63FCC100627EC4 /* NSObject+BlocksTests.m */; };
+		2C50BA962070EC55008261EF /* NSObject+Throttling.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C50BA952070EC55008261EF /* NSObject+Throttling.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C068B6F204AB87900B4A9B8 /* NSObject+Throttling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Throttling.m"; sourceTree = "<group>"; };
+		2C068B70204AB87900B4A9B8 /* NSObject+Throttling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Throttling.h"; sourceTree = "<group>"; };
 		2C49D6DA1F63F40A00627EC4 /* FoundationUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FoundationUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C49D6DD1F63F40A00627EC4 /* FoundationUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FoundationUtils.h; sourceTree = "<group>"; };
 		2C49D6DE1F63F40A00627EC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,6 +46,7 @@
 		2C49D7061F63FCB200627EC4 /* NSObject+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Blocks.h"; sourceTree = "<group>"; };
 		2C49D7071F63FCB200627EC4 /* NSObject+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Blocks.m"; sourceTree = "<group>"; };
 		2C49D70A1F63FCC100627EC4 /* NSObject+BlocksTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BlocksTests.m"; sourceTree = "<group>"; };
+		2C50BA952070EC55008261EF /* NSObject+Throttling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Throttling.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,8 @@
 				2C49D7001F63F45500627EC4 /* NSArray+Emptiness.m */,
 				2C49D7061F63FCB200627EC4 /* NSObject+Blocks.h */,
 				2C49D7071F63FCB200627EC4 /* NSObject+Blocks.m */,
+				2C068B70204AB87900B4A9B8 /* NSObject+Throttling.h */,
+				2C068B6F204AB87900B4A9B8 /* NSObject+Throttling.m */,
 			);
 			path = FoundationUtils;
 			sourceTree = "<group>";
@@ -100,6 +108,7 @@
 				2C49D6EA1F63F40A00627EC4 /* Info.plist */,
 				2C49D6FD1F63F44100627EC4 /* NSArray+EmptinessTests.m */,
 				2C49D70A1F63FCC100627EC4 /* NSObject+BlocksTests.m */,
+				2C50BA952070EC55008261EF /* NSObject+Throttling.m */,
 			);
 			path = FoundationUtilsTests;
 			sourceTree = "<group>";
@@ -112,6 +121,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C49D7081F63FCB200627EC4 /* NSObject+Blocks.h in Headers */,
+				2C068B72204AB87900B4A9B8 /* NSObject+Throttling.h in Headers */,
 				2C49D7011F63F45500627EC4 /* NSArray+Emptiness.h in Headers */,
 				2C49D6EB1F63F40A00627EC4 /* FoundationUtils.h in Headers */,
 			);
@@ -162,7 +172,7 @@
 		2C49D6D11F63F40A00627EC4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Radek Pistelak";
 				TargetAttributes = {
 					2C49D6D91F63F40A00627EC4 = {
@@ -218,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C49D7021F63F45500627EC4 /* NSArray+Emptiness.m in Sources */,
+				2C068B71204AB87900B4A9B8 /* NSObject+Throttling.m in Sources */,
 				2C49D7091F63FCB200627EC4 /* NSObject+Blocks.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -228,6 +239,7 @@
 			files = (
 				2C49D6E91F63F40A00627EC4 /* FoundationUtilsTests.m in Sources */,
 				2C49D6FE1F63F44100627EC4 /* NSArray+EmptinessTests.m in Sources */,
+				2C50BA962070EC55008261EF /* NSObject+Throttling.m in Sources */,
 				2C49D70B1F63FCC100627EC4 /* NSObject+BlocksTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,15 +265,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -305,15 +325,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -418,6 +446,7 @@
 				2C49D6F01F63F40A00627EC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C49D6F11F63F40A00627EC4 /* Build configuration list for PBXNativeTarget "FoundationUtilsTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +455,7 @@
 				2C49D6F31F63F40A00627EC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

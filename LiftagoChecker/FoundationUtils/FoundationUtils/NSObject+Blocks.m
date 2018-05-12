@@ -10,7 +10,7 @@
 
 @implementation NSObject (Blocks)
 
-- (void)performBlock:(void (^)())block {
+- (void)performBlock:(void (^)(void))block {
     
     if (block) {
         block();

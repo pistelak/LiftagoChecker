@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+#import "OverviewViewModel.h"
+
 @interface OverviewViewController : UIViewController
+
+- (instancetype)init NS_UNAVAILABLE;
+- (instancetype)initWithViewModel:(OverviewViewModel *)viewModel;
 
 @end
