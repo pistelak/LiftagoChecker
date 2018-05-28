@@ -19,6 +19,10 @@
 		2C49D7091F63FCB200627EC4 /* NSObject+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C49D7071F63FCB200627EC4 /* NSObject+Blocks.m */; };
 		2C49D70B1F63FCC100627EC4 /* NSObject+BlocksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C49D70A1F63FCC100627EC4 /* NSObject+BlocksTests.m */; };
 		2C50BA962070EC55008261EF /* NSObject+Throttling.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C50BA952070EC55008261EF /* NSObject+Throttling.m */; };
+		2C828A4C20BDCE520017498F /* ConcurrentOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C828A4820BDCE520017498F /* ConcurrentOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C828A4D20BDCE520017498F /* ConcurrentOperation+Protected.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C828A4920BDCE520017498F /* ConcurrentOperation+Protected.m */; };
+		2C828A4E20BDCE520017498F /* ConcurrentOperation+Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C828A4A20BDCE520017498F /* ConcurrentOperation+Protected.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C828A4F20BDCE520017498F /* ConcurrentOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C828A4B20BDCE520017498F /* ConcurrentOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		2C49D7071F63FCB200627EC4 /* NSObject+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Blocks.m"; sourceTree = "<group>"; };
 		2C49D70A1F63FCC100627EC4 /* NSObject+BlocksTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BlocksTests.m"; sourceTree = "<group>"; };
 		2C50BA952070EC55008261EF /* NSObject+Throttling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Throttling.m"; sourceTree = "<group>"; };
+		2C828A4820BDCE520017498F /* ConcurrentOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcurrentOperation.h; sourceTree = "<group>"; };
+		2C828A4920BDCE520017498F /* ConcurrentOperation+Protected.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ConcurrentOperation+Protected.m"; sourceTree = "<group>"; };
+		2C828A4A20BDCE520017498F /* ConcurrentOperation+Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ConcurrentOperation+Protected.h"; sourceTree = "<group>"; };
+		2C828A4B20BDCE520017498F /* ConcurrentOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcurrentOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +99,10 @@
 			children = (
 				2C49D6DD1F63F40A00627EC4 /* FoundationUtils.h */,
 				2C49D6DE1F63F40A00627EC4 /* Info.plist */,
+				2C828A4820BDCE520017498F /* ConcurrentOperation.h */,
+				2C828A4B20BDCE520017498F /* ConcurrentOperation.m */,
+				2C828A4A20BDCE520017498F /* ConcurrentOperation+Protected.h */,
+				2C828A4920BDCE520017498F /* ConcurrentOperation+Protected.m */,
 				2C49D6FF1F63F45500627EC4 /* NSArray+Emptiness.h */,
 				2C49D7001F63F45500627EC4 /* NSArray+Emptiness.m */,
 				2C49D7061F63FCB200627EC4 /* NSObject+Blocks.h */,
@@ -120,9 +132,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C828A4C20BDCE520017498F /* ConcurrentOperation.h in Headers */,
 				2C49D7081F63FCB200627EC4 /* NSObject+Blocks.h in Headers */,
 				2C068B72204AB87900B4A9B8 /* NSObject+Throttling.h in Headers */,
 				2C49D7011F63F45500627EC4 /* NSArray+Emptiness.h in Headers */,
+				2C828A4E20BDCE520017498F /* ConcurrentOperation+Protected.h in Headers */,
 				2C49D6EB1F63F40A00627EC4 /* FoundationUtils.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,9 +241,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C828A4F20BDCE520017498F /* ConcurrentOperation.m in Sources */,
 				2C49D7021F63F45500627EC4 /* NSArray+Emptiness.m in Sources */,
 				2C068B71204AB87900B4A9B8 /* NSObject+Throttling.m in Sources */,
 				2C49D7091F63FCB200627EC4 /* NSObject+Blocks.m in Sources */,
+				2C828A4D20BDCE520017498F /* ConcurrentOperation+Protected.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,7 +321,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -359,7 +375,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -380,6 +396,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = FoundationUtils/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ran.apps.FoundationUtils;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -398,6 +415,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = FoundationUtils/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ran.apps.FoundationUtils;
 				PRODUCT_NAME = "$(TARGET_NAME)";

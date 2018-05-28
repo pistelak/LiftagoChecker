@@ -11,11 +11,8 @@
 		2C40A2982030921B00064339 /* GMailFilterQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C40A2962030921B00064339 /* GMailFilterQuery.m */; };
 		2CA091CE1F6D3E730088604C /* GMailService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA091C41F6D3E730088604C /* GMailService.framework */; };
 		2CA091D51F6D3E730088604C /* GMailService.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CA091C71F6D3E730088604C /* GMailService.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2CA091EC1F6D3E8B0088604C /* GMailMessageFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CA091E71F6D3E8B0088604C /* GMailMessageFetcher.h */; };
+		2CA091EC1F6D3E8B0088604C /* GMailMessageFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CA091E71F6D3E8B0088604C /* GMailMessageFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CA091ED1F6D3E8B0088604C /* GMailMessageFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA091E81F6D3E8B0088604C /* GMailMessageFetcher.m */; };
-		2CA091EE1F6D3E8B0088604C /* GMailMessageListFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CA091E91F6D3E8B0088604C /* GMailMessageListFetcher.h */; };
-		2CA091EF1F6D3E8B0088604C /* GMailMessageListFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA091EA1F6D3E8B0088604C /* GMailMessageListFetcher.m */; };
-		2CA091F01F6D3E8B0088604C /* GMailService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA091EB1F6D3E8B0088604C /* GMailService.m */; };
 		2CE20D0F2030966A001E5890 /* NSCalendar+DateFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CE20D0D2030966A001E5890 /* NSCalendar+DateFactory.h */; };
 		2CE20D102030966A001E5890 /* NSCalendar+DateFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE20D0E2030966A001E5890 /* NSCalendar+DateFactory.m */; };
 		2CE20D3020309B79001E5890 /* GMailFilterQueriesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE20D2F20309B79001E5890 /* GMailFilterQueriesTests.m */; };
@@ -44,9 +41,6 @@
 		2CA091D41F6D3E730088604C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CA091E71F6D3E8B0088604C /* GMailMessageFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMailMessageFetcher.h; sourceTree = "<group>"; };
 		2CA091E81F6D3E8B0088604C /* GMailMessageFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMailMessageFetcher.m; sourceTree = "<group>"; };
-		2CA091E91F6D3E8B0088604C /* GMailMessageListFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMailMessageListFetcher.h; sourceTree = "<group>"; };
-		2CA091EA1F6D3E8B0088604C /* GMailMessageListFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMailMessageListFetcher.m; sourceTree = "<group>"; };
-		2CA091EB1F6D3E8B0088604C /* GMailService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMailService.m; sourceTree = "<group>"; };
 		2CE20D0D2030966A001E5890 /* NSCalendar+DateFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+DateFactory.h"; sourceTree = "<group>"; };
 		2CE20D0E2030966A001E5890 /* NSCalendar+DateFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+DateFactory.m"; sourceTree = "<group>"; };
 		2CE20D2F20309B79001E5890 /* GMailFilterQueriesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMailFilterQueriesTests.m; sourceTree = "<group>"; };
@@ -102,13 +96,13 @@
 			isa = PBXGroup;
 			children = (
 				2CA091C71F6D3E730088604C /* GMailService.h */,
-				2CA091EB1F6D3E8B0088604C /* GMailService.m */,
+				2CA091E71F6D3E8B0088604C /* GMailMessageFetcher.h */,
+				2CA091E81F6D3E8B0088604C /* GMailMessageFetcher.m */,
 				2C40A2952030921B00064339 /* GMailFilterQuery.h */,
 				2C40A2962030921B00064339 /* GMailFilterQuery.m */,
-				2CA091F11F6D3E910088604C /* Components */,
-				2CA091C81F6D3E730088604C /* Info.plist */,
 				2CE20D0D2030966A001E5890 /* NSCalendar+DateFactory.h */,
 				2CE20D0E2030966A001E5890 /* NSCalendar+DateFactory.m */,
+				2CA091C81F6D3E730088604C /* Info.plist */,
 			);
 			path = GMailService;
 			sourceTree = "<group>";
@@ -120,17 +114,6 @@
 				2CA091D41F6D3E730088604C /* Info.plist */,
 			);
 			path = GMailServiceTests;
-			sourceTree = "<group>";
-		};
-		2CA091F11F6D3E910088604C /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				2CA091E71F6D3E8B0088604C /* GMailMessageFetcher.h */,
-				2CA091E81F6D3E8B0088604C /* GMailMessageFetcher.m */,
-				2CA091E91F6D3E8B0088604C /* GMailMessageListFetcher.h */,
-				2CA091EA1F6D3E8B0088604C /* GMailMessageListFetcher.m */,
-			);
-			name = Components;
 			sourceTree = "<group>";
 		};
 		57AFFE899E41C817E2941531 /* Frameworks */ = {
@@ -162,7 +145,6 @@
 			files = (
 				2CE20D0F2030966A001E5890 /* NSCalendar+DateFactory.h in Headers */,
 				2CA091D51F6D3E730088604C /* GMailService.h in Headers */,
-				2CA091EE1F6D3E8B0088604C /* GMailMessageListFetcher.h in Headers */,
 				2C40A2972030921B00064339 /* GMailFilterQuery.h in Headers */,
 				2CA091EC1F6D3E8B0088604C /* GMailMessageFetcher.h in Headers */,
 			);
@@ -180,7 +162,6 @@
 				2CA091C01F6D3E730088604C /* Frameworks */,
 				2CA091C11F6D3E730088604C /* Headers */,
 				2CA091C21F6D3E730088604C /* Resources */,
-				204424E51CFABB822BBE4E68 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,8 +180,6 @@
 				2CA091C91F6D3E730088604C /* Sources */,
 				2CA091CA1F6D3E730088604C /* Frameworks */,
 				2CA091CB1F6D3E730088604C /* Resources */,
-				563EB60EB0D56CEA65B7AE8B /* [CP] Embed Pods Frameworks */,
-				431389FD4DF11D37EC99A857 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -287,21 +266,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		204424E51CFABB822BBE4E68 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../../Pods/Target Support Files/Pods-GMailService/Pods-GMailService-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		32695E10E301BC86BBAE86F5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -320,41 +284,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		431389FD4DF11D37EC99A857 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../../Pods/Target Support Files/Pods-GMailServiceTests/Pods-GMailServiceTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		563EB60EB0D56CEA65B7AE8B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/../../Pods/Target Support Files/Pods-GMailServiceTests/Pods-GMailServiceTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClientForREST.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../../Pods/Target Support Files/Pods-GMailServiceTests/Pods-GMailServiceTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -363,9 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CE20D102030966A001E5890 /* NSCalendar+DateFactory.m in Sources */,
-				2CA091EF1F6D3E8B0088604C /* GMailMessageListFetcher.m in Sources */,
 				2CA091ED1F6D3E8B0088604C /* GMailMessageFetcher.m in Sources */,
-				2CA091F01F6D3E8B0088604C /* GMailService.m in Sources */,
 				2C40A2982030921B00064339 /* GMailFilterQuery.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,7 +367,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -495,7 +422,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";

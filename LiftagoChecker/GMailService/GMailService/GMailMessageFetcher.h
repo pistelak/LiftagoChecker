@@ -8,15 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
-@class GTLRGmailService;
+@protocol GTMFetcherAuthorizationProtocol, GMailFilterQuery, GTLRGmail_Message;
 
 @interface GMailMessageFetcher : NSObject
 
-- (instancetype)initWithService:(GTLRGmailService *)service;
+@property (nonatomic, strong) id<GTMFetcherAuthorizationProtocol> authorization;
 
-///
-/// SEL - (NSArray<GTLRGmail_Message *> *, NSError *)
-///
-- (void)fetchMesssagesWithIDs:(NSArray *)messageIDs withDelegate:(id)delegate didFinishSelector:(SEL)selector;
+- (void)fetchMessagesWithFilterQuery:(id<GMailFilterQuery>)filterQuery
+                             success:(void(^)(NSArray *messages))successHandler
+                             failure:(void(^)(NSError *error))failureHandler;
 
 @end

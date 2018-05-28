@@ -19,3 +19,5 @@ FOUNDATION_EXPORT const unsigned char FoundationUtilsVersionString[];
 #import <FoundationUtils/NSArray+Emptiness.h>
 #import <FoundationUtils/NSObject+Blocks.h>
 #import <FoundationUtils/NSObject+Throttling.h>
+#import <FoundationUtils/ConcurrentOperation.h>
+#import <FoundationUtils/ConcurrentOperation+Protected.h>

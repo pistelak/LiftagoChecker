@@ -1,16 +1,15 @@
-//
-//  AppDelegate.h
-//  LiftagoChecker
-//
-//  Created by Radek Pistelak on 09/09/2017.
-//  Copyright © 2017 Radek Pistelak. All rights reserved.
-//
 
 #import <UIKit/UIKit.h>
+
+@class AppCoordinator, NSPersistentContainer;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) UIViewController *rootViewController;
+
+@property (strong, nonatomic) AppCoordinator *appCoordinator;
+@property (strong, nonatomic) NSPersistentContainer *persistentContainer;
 
 @end
 

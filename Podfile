@@ -9,6 +9,8 @@ target 'LiftagoChecker' do
 	project 'LiftagoChecker/LiftagoChecker.xcodeproj'
 
 	pod 'Google/SignIn', '~> 3.0.3'
+  pod 'Typhoon'
+
 end
 
 target :GMailService do

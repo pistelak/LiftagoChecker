@@ -1,35 +1,18 @@
 //
 //  GMailService.h
-//  LiftagoChecker
+//  GMailService
 //
-//  Created by Radek Pistelak on 09/09/2017.
-//  Copyright © 2017 Radek Pistelak. All rights reserved.
+//  Created by Radek Pistelak on 11/02/2018.
+//  Copyright © 2018 ran. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
-#import "GMailFilterQuery.h"
 
-@protocol GTMFetcherAuthorizationProtocol;
-@class GMailService;
+//! Project version number for GMailService.
+FOUNDATION_EXPORT double GMailServiceVersionNumber;
 
-NS_ASSUME_NONNULL_BEGIN
+//! Project version string for GMailService.
+FOUNDATION_EXPORT const unsigned char GMailServiceVersionString[];
 
-@protocol GMailServiceDelegate <NSObject>
-
-- (void)gmailService:(GMailService *)service didFetchMessages:(NSArray *)messages;
-- (void)gmailService:(GMailService *)service didFailWithError:(NSError *)error;
-
-@end
-
-@interface GMailService : NSObject
-
-- (instancetype)initWithAuthorizer:(id<GTMFetcherAuthorizationProtocol>)authorizer;
-
-@property (nonatomic, weak) id<GMailServiceDelegate> delegate;
-
-- (void)fetchMessagesWithFilterQuery:(nullable id<GMailFilterQuery>)filterQuery;
-- (void)fetchMessages;
-
-@end
-
-NS_ASSUME_NONNULL_END
+#import <GMailService/GMailMessageFetcher.h>
+#import <GMailService/GMailFilterQuery.h>
